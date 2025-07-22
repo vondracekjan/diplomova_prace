@@ -4,15 +4,15 @@ library(scales)
 
 #nacitani dat
 
-ess_2006 <- read.csv("data/ess/ess_2006.csv")
+ess_2006 <- read.csv("data/ess_2006.csv")
 #datovy soubor ESS za rok 2006 lze stahnout zde: https://doi.org/10.21338/ess3e03_7
 
 ess_2006 <- ess_2006 %>%
   mutate(anweight = pspwght * pweight) #nutny vypocet vahy pro tento dataset
 
-ess_2010 <- read.csv("data/ess/ess_2010.csv")
-ess_2014 <- read.csv("data/ess/ess_2014.csv")
-ess_2018 <- read.csv("data/ess/ess_2018.csv")
+ess_2010 <- read.csv("data/ess_2010.csv")
+ess_2014 <- read.csv("data/ess_2014.csv")
+ess_2018 <- read.csv("data/ess_2018.csv")
 #datovy soubor ESS za rok 2010 lze stahnout zde: https://doi.org/10.21338/ess5e03_5
 #datovy soubor ESS za rok 2014 lze stahnout zde: https://doi.org/10.21338/ess7e02_3 
 #datovy soubor ESS za rok 2018 lze stahnout zde: https://doi.org/10.21338/ess9e03_2

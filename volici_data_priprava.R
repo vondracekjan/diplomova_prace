@@ -19,7 +19,7 @@ ess_2018 <- read.csv("data/ess_2018.csv")
 
 
 #nacitani kodu party facts a uprava
-party_facts <- read.csv("data/ess/essprt-all.csv")
+party_facts <- read.csv("data/essprt-all.csv")
 #datovy soubor Party Facts k ESS kodovani stran lze stahnout zde: https://github.com/hdigital/partyfactsdata/blob/main/import/essprtv/essprt-all.csv
 
 #spojeni promennych ESS ID strany a zeme v ramci datoveho souboru Party Facts

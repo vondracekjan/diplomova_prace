@@ -14,8 +14,8 @@ full_data <- full_data %>% rename(eco_voters = mean_eco, cult_voters = mean_cult
 #nacitani dat pro dalsi promenne
 
 
-gdp_growth <- read.csv("data/gdp/gdp_growth.csv", header = F)
-party_system_age <- read_xlsx("data/party_system_age/party_system_age.xlsx")
+gdp_growth <- read.csv("data/gdp_growth.csv", header = F)
+party_system_age <- read_xlsx("data/party_system_age.xlsx")
 #datovy soubor World Bank pro rust HDP zeme lze stahnout zde: https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
 #datovy soubor od Casal Bértoa pro stari stranickeho systemu zeme lze stahnou zde: https://whogoverns.eu/party-systems/party-institutionalization/
 

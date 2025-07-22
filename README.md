@@ -8,4 +8,4 @@
 
 „analyzy.R“ – kód pro vizualizaci dat a výpočet modelů
 
-Skripty, které upravují původní data, obsahují URL odkazy, odkud lze tato data stáhnout. Výstupem těchto skriptů jsou upravené datové soubory, které jsou načítány v dalších skriptech.
+Skripty, které upravují původní data, obsahují URL odkazy, odkud lze tato data stáhnout. Výstupem těchto skriptů jsou upravené datové soubory, které jsou načítány v dalších krocích.

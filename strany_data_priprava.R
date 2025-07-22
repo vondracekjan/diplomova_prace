@@ -2,11 +2,11 @@ library(tidyverse)
 library(dplyr)
 
 #nacitani dat
-ches_1 <- read.csv("data/ches/ches_1999-2019.csv")
-ches_2 <- read.csv("data/ches/ches_2024.csv")
+ches_1 <- read.csv("data/ches_1999-2019.csv")
+ches_2 <- read.csv("data/ches_2024.csv")
 #datovy soubor CHES pro roky 1999-2019 a prozatim oddeleny CHES datovy soubor pro rok 2024 lze stahnout zde: https://www.chesdata.eu/ches-europe
 
-party_facts_ches <- read.csv("data/ches/party_facts_ches.csv")
+party_facts_ches <- read.csv("data/party_facts_ches.csv")
 #datovy soubor Party Facts k CHES kodovani stran lze stahnout zde: https://github.com/hdigital/partyfactsdata/blob/main/import/ches/ches.csv
 
 #uprava datasetu pro rok 2024

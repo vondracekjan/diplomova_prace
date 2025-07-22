@@ -4,8 +4,8 @@ library(ggpubr)
 
 
 #nacitani dat
-party <- read.csv("data/socdem_zisky/view_party.csv")
-election <- read.csv("data/socdem_zisky/view_election.csv")
+party <- read.csv("data/view_party.csv")
+election <- read.csv("data/view_election.csv")
 #datovy soubor ParlGov pro zisky socialnedemokratickych stran lze stahnout zde: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2VZ5ZC
 
 

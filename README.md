@@ -1,4 +1,4 @@
-Skripty, které upravují původní data, obsahují URL odkazy, odkud lze tato data stáhnout. Příslušná citace těchto dat v textu, odkaz ke stažení a název, pod kterým byla uložena, je uveden i zde pod názvem každého takového skriptu. Výstupem těchto skriptů jsou upravené datové soubory, které jsou načítány v dalších krocích.
+Skripty, které upravují původní data, obsahují URL odkazy, odkud lze tato data stáhnout. Příslušná citace těchto dat v textu, odkaz ke stažení a název, pod kterým byla uložena, je uveden i zde pod názvem každého takového skriptu. Výstupem těchto skriptů jsou upravené datové soubory, které jsou načítány v dalších krocích. Všechny datové soubory byly uloženy do složky "data/".
  
 „zisky_graf.R“ – kód pro vizualizaci volebních zisků sociálnědemokratických stran v rámci grafu 1
 * Döring, Holger, a Philip Manow. 2024. „ParlGov 2024 Release". Harvard Dataverse, srpen 12. https://doi.org/10.7910/DVN/2VZ5ZC.
